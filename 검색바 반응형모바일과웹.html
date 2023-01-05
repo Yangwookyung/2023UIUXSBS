@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/acc6245ef7.js" crossorigin="anonymous"></script>
+    <style>
+        #wrapper {
+            width: 200px;
+            height: 800px;
+            position: fixed;
+            float: left;
+        }
+
+        ul {
+            list-style: none;
+            line-height: 35px;
+
+        }
+
+        .headdd {
+            text-align: center;
+            margin-left: 240px;
+            line-height: 30px;
+            width: 200px;
+            height: 30px;
+        }
+
+        .cls001 {
+            border: 1px solid #333;
+            border-radius: 5px 5px 5px 5px;
+            margin-left: 180px;
+            width: 300px;
+            float: left;
+            height: 30px;
+            padding-left: 10px;
+            color: #888;
+
+        }
+
+        .icon {
+            border: 1px solid #333;
+            border-radius: 8px 8px 8px 8px;
+            color: #fff;
+            background: #333;
+            float: left;
+            width: 50px;
+            height: 33px;
+            text-align: center;
+            margin-left: 5px;
+        }
+
+        @media (max-width:610px) {
+            .headdd {
+                box-sizing: border-box;
+                width: 50%;
+                margin-left: 50px;
+                float: left;
+                line-height: 20px;
+            }
+
+            .cls001 {
+                width: 30%;
+                box-sizing: border-box;
+                float: left;
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+
+            .icon {
+                width: 30%;
+                box-sizing: border-box;
+                margin-left: 30px;
+                margin-top: 8px;
+                float: left;
+            }
+        }
+
+        @media (max-width:768px) {
+            .headdd {
+                box-sizing: border-box;
+                width: 85%;
+                margin-left: 0px;
+                float: left;
+                line-height: 20px;
+            }
+
+            .cls001 {
+                width: 70%;
+                box-sizing: border-box;
+                float: left;
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+
+            .icon {
+                width: 70%;
+                box-sizing: border-box;
+                margin-left: 30px;
+                margin-top: 8px;
+                float: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul>
+
+            <li class="headdd">Responsive example</li>
+            <input typetext="text" placeholder="Custom Search" class="cls001"></li>
+            <li class="icon"><i class="fa-solid fa-magnifying-glass-plus"></i></li>
+        </ul>
+    </div>
+</body>
+
+</html>
